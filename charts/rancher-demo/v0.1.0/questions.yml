@@ -6,7 +6,7 @@ questions:
   type: boolean
   group: "Ingress Configuration"
 - variable: ingress.host
-  default: "xip.io"
+  default: "nip.io"
   description: "Enter the DNS name for the ingress endpoint. Leave the default to automatically generate a valid DNS name."
   type: string
   label: Ingress Endpoint DNS
@@ -34,7 +34,7 @@ questions:
   label: Container Color
   group: "App Configuration"
 - variable: image.repository
-  default: "janeczku/rancher-demo"
+  default: "yankcrime/rancher-demo"
   description: "Specify the container image repository name"
   type: string
   label: Image Repository
