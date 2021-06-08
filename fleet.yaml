@@ -1,0 +1,3 @@
+helm:
+  chart: ./charts/rancher-demo
+  version: 0.1.0
