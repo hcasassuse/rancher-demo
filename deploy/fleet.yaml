@@ -1,3 +1,13 @@
 helm:
   chart: ./charts/rancher-demo/v0.1.0
-  version: 0.1.0
+  values:
+    replicaCount: 3
+    app:
+      localization:
+        title: "Rancher Demo App, powered by Fleet"
+        pets: "cowmeleons"
+        color: "pink"
+    ingress:
+      enabled: true
+      tls: False
+      host: rancher.193.16.42.52.dnsify.me
