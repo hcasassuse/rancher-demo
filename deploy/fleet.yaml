@@ -10,4 +10,4 @@ helm:
     ingress:
       enabled: true
       tls: False
-      host: rancher.193.16.42.52.dnsify.me
+      host: rancher-demo.192.168.20.165.dnsify.me
