@@ -8,6 +8,6 @@ helm:
         pets: "cowmeleons"
         color: "pink"
     ingress:
-      enabled: false
+      enabled: true
       tls: False
       host: rancher-demo.192.168.20.165.dnsify.me
